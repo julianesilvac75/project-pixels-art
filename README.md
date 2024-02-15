@@ -1,34 +1,33 @@
 
-# Project Pixels Art - Trybe, Turma 16-B
+# Project Pixels Art - Trybe, Class 16-B
 
-O objetivo do projeto foi implementar uma página web que contém uma paleta de cores funcional que poderá ser utilizada para criar desenhos em pixels.
+The goal of the project was to create a web page with a functional color palette for creating pixel drawings.
 
-- Repositório da proposta do projeto: [Clique](https://github.com/tryber/sd-016-b-project-pixels-art)
-- Página do projeto: [Clique](https://project-pixels-art-julianesilvac75.vercel.app/)
+- Live page: [click here](https://project-pixels-art-julianesilvac75.vercel.app/)
 
-## Tecnologias utilizadas
+## Technologies Used
 
 - HTML
 - CSS
 - JavaScript
 
-## Requisitos
-- Adicionar à página o título "Paleta de Cores"
-- Adicionar uma paleta contendo quatro cores distintas
-- Adicionar a cor preta como a primeira cor da paleta de cores
-- Adicionar um quadro de pixels, com 25 pixels
-- Fazer com que cada elemento do quadro de pixels possua 40 pixels de largura, 40 pixels de altura e seja delimitado por uma borda preta de 1 pixel
-- Definir a cor preta como cor inicial. Ao carregar a página, a cor preta já deve estar selecionada para pintar os pixels
-- Clicar em uma das cores da paleta faz com que ela seja selecionada e utilizada para preencher os pixels no quadro
-- Clicar em um pixel dentro do quadro após selecionar uma cor na paleta faz com que o pixel seja preenchido com a cor selecionada
-- Criar um botão que, ao ser clicado, limpa o quadro preenchendo a cor de todos os seus pixels com branco
-- Fazer o quadro de pixels ter seu tamanho definido pela pessoa usuária
-- Limitar o tamanho mínimo (5) e máximo (50) do board
-- Fazer com que as cores da paleta sejam geradas aleatoriamente ao carregar a página
+## Technologies Used
+- [x] Add the title "Color Palette" to the page.
+- [x] Include a palette with four different colors.
+- [x] Set *black* as the first color in the color palette.
+- [x] Add a pixel board with 25 pixels.
+- [x] Each pixel on the board should be 40 pixels wide, 40 pixels high, and bordered by a 1-pixel black border.
+- [x] Set *black* as the initial color. When the page loads, black should already be selected for painting the pixels.
+- [x] Clicking on one of the colors in the palette selects it and uses it to fill the pixels on the board.
+- [x] Clicking on a pixel within the board after selecting a color in the palette fills the pixel with the selected color.
+- [x] Create a button that, when clicked, clears the board by filling all its pixels with white.
+- [x] Allow the user to define the size of the pixel board.
+- [x] Limit the minimum size (5) and maximum size (50) of the board.
+- [x] Randomly generate the colors in the palette when the page loads.
 
-## Aprendizados
+## Learnings
 
-O projeto me deu a chance de criar minha primeira aplicação web interativa. A manipulação dos elementos do DOM foi bastante desafiadora e que acrescentou um nível de dificuldade maior, mas que foi muito recompensador no final. Pretendo ainda incrementar a página com outras funcionalidades, como a opção de apagar apenas um pixel que já foi pintado e salvar as preferências do usuário, mas já estou bastante orgulhosa do resultado até agora.
+The project gave me the chance to create my first interactive web application. Manipulating DOM elements was quite challenging and added a higher level of difficulty, but it was very rewarding in the end. I plan to enhance the page with additional features, such as the option to erase only a painted pixel, add a warning about minimum/maximum size, create an option to generate new random colors, implement a dark mode option, and save user preferences. However, I'm already quite proud of the results so far.
 
 
 >Written with [StackEdit](https://stackedit.io/).
